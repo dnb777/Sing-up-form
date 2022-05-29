@@ -1,3 +1,9 @@
+:root {
+	--logo-font: 'Germania One', cursive;
+	--main-font: 'Poppins', sans-serif;
+}
+
+
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
