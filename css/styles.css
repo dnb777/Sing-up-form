@@ -35,7 +35,7 @@ a {
 
 /*SIDEBAR*/
 .image-sidebar {
-	background-image: url("../img/bg-1.jpg");
+	background-image: url(../img/bg-1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 44%;
