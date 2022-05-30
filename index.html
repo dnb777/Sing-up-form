@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sing-Up Form</title>
+	<script src="app.js" defer=""></script>
 	<link rel="preload" href="css/normalize.css" as="style">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,13 +56,13 @@
 					
 					<div class="input-container">
 						<label for="psw">Password</label>
-						<input type="password" name="password" id="psw" class="psw" required>
-						<span></span>
+						<input type="password" name="password" id="psw" class="psw" onkeyup="passesValidation()" required>
+						<span class="error-span"></span>
 					</div>
 					
 					<div class="input-container">
 						<label for="confirm-psw">Confirm Password</label>
-						<input type="password" name="confirm-password" id="confirm-psw" required>
+						<input type="password" name="confirm-password" id="confirm-psw" onkeyup="passesValidation()" required>
 					</div>
 				</div>
 			</form>
