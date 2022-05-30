@@ -8,17 +8,67 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<div class="page-wrapper">
-		<aside class="aside">
-			
+		<aside class="image-sidebar">
+			<div class="logo">
+				<img class="logo-img" src="img/odin-lined.png" alt="The Odin Project Logo">
+				<p class="logo-text">Odin</p>
+			</div>
+
+			<p class="credit">Photo by <span><a href="https://unsplash.com/es/@lovebydm" target="_blank">Chandri Anggara</a></span> on <span><a href="https://unsplash.com/">Unsplash</a></span></p>
 		</aside>
 		
 		<main class="main">
+			<div class="description">
+				<p>This is not a real online service! Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Exercitationem est assumenda dicta soluta eos eaque non praesentium excepturi.</p>
+				<p>Subscribe for more <span>lorem</span> text.</p>
+			</div>
+
+			<form action="#" class="my-form" id="form">
+				<h3 class="form-title">Let's do this!</h3>
+
+				<div class="input-wrapper">
+					<div class="input-container">
+						<label for="first-name">First Name</label>
+						<input type="text" name="firstName" id="first-name" required>
+					</div>
+					
+					<div class="input-container">
+						<label for="last-name">Last Name</label>
+						<input type="text" name="lastName" id="last-name" required>
+					</div>
+					
+					<div class="input-container">
+						<label for="mail">E-mail</label>
+						<input type="email" name="email" id="mail" required>
+					</div>
+					
+					<div class="input-container">
+						<label for="phone">Phone Number</label>
+						<input type="tel" name="user-phoneNum" id="phone">
+					</div>
+					
+					<div class="input-container">
+						<label for="psw">Password</label>
+						<input type="password" name="password" id="psw" class="psw" required>
+						<span></span>
+					</div>
+					
+					<div class="input-container">
+						<label for="confirm-psw">Confirm Password</label>
+						<input type="password" name="confirm-password" id="confirm-psw" required>
+					</div>
+				</div>
+			</form>
 			
+			<button type="submit" form="form" class="submit-btn">
+				Create Account
+			</button>
+			<p 	class="login-text">Already have an account? <span><a href="#">Log In</a></span></p>
 		</main>
 	</div>
 	
