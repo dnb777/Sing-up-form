@@ -16,8 +16,60 @@ html {
 
 body {
 	font-size: 16px;
+	font-family: var(--main-font);
+	height: 100vh;
 }
 
 img {
 	width: 100%;
 }
+a {
+	text-decoration: none;
+	color: #000;
+}
+.page-wrapper {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+/*SIDEBAR*/
+.image-sidebar {
+	background-image: url("../img/bg-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 44%;
+}
+/*LOGO*/
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.logo-img {
+	width: 10rem;
+}
+.logo-text {
+	color: #FFF;
+	font-family: var(--logo-font);
+	font-size: 8rem;
+	text-transform: uppercase;
+}
+/*CREDIT*/
+.credit {
+	font-size: 1.3rem;
+	color: #FFF;
+	position: absolute;
+	bottom: 0;
+	left: 10rem;
+	padding: 1rem;
+
+}
+.credit a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
