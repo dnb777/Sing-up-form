@@ -31,12 +31,15 @@ body {
 /* SIDEBAR */
 .sidebar {
     background-image: url(images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 40%;
 }
 
 .logo {
-    background-color: rgba(114, 179, 184, 0.295);
+    background-color: rgba(212,218,218,0.3);
     margin-top: 180px;
+    padding: 10px 50px;
 }
 
 .logo p {
@@ -44,4 +47,3 @@ body {
     font-size: 14rem;
     text-align: center;
 }
-
