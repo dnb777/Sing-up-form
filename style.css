@@ -28,3 +28,20 @@ body {
     display: flex;
 }
 
+/* SIDEBAR */
+.sidebar {
+    background-image: url(images/background-image.jpg);
+    width: 40%;
+}
+
+.logo {
+    background-color: rgba(114, 179, 184, 0.295);
+    margin-top: 180px;
+}
+
+.logo p {
+    font-family: 'bat_knight';
+    font-size: 14rem;
+    text-align: center;
+}
+
