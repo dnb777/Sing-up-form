@@ -62,3 +62,42 @@ body {
     font-weight: bold;
     padding-left: 60px;
 }
+
+/* FORM */
+.form-container {
+    background-color: rgba(255,255,255,255);
+    margin: 60px 0 30px 0;
+    padding: 30px 60px;
+    box-shadow:0px 5px 10px 1px rgba(228,229,231,255);
+    color: #3a3d41;
+}
+
+.form-container h2 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+    gap: 150px;
+}
+
+.row {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 3px;
+    height: 35px;
+    font-size: 1.6rem;
+    padding: 5px;
+}
