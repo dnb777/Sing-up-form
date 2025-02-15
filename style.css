@@ -1,0 +1,28 @@
+:root {
+    --lightgray: rgba(223,234,230,255);
+}
+
+@font-face {
+    font-family: 'bat-knight';
+    src: url('fonts/batknight-regular-webfont.woff2') format('woff2'),
+         url('fonts/batknight-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
