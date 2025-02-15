@@ -10,6 +10,7 @@ Características
 
 -Práctica de estructura semántica en HTML.  
 
+-Enfoque movile first
 
 Este proyecto refuerza la capacidad de construir formularios accesibles y bien estructurados, asegurando una experiencia de usuario fluida y visualmente atractiva.
 
