@@ -14,5 +14,87 @@
             <p>Servicios Inmobiliarios</p>
         </div>
     </header>
+    <main class="main">
+        <div class="main-text">
+            <p>This is nor a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sing up <em>now</em> to get started</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form action="" method="get" class="sing-up-form" id="sing-up-form">
+            <h2>Let's do this</h2>
+            <p>Required fields are marked with <span aria-label="required">*</span></p>
+            <div class="form-row">
+                <p>
+                    <label for="name">Name<span aria-label="required">*</span></label>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    autocomplete="given-name" 
+                    minlength="2"
+                    required>
+                </p>
+                <p>
+                    <label for="lastname">Last name<span aria-label="required">*</span></label>
+                    <input 
+                    type="text" 
+                    name="lastname" 
+                    id="lastname" 
+                    autocomplete="family-name" 
+                    minlength="2"
+                    required>
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="email">Email<span aria-label="required">*</span></label>
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    autocomplete="email"
+                    pattern="^\w+(\_\w*)?(\.\w*)?@\w+(\-\w*)?\.\w{2,3}(\.\w{2,3})?"
+                    required>
+                </p>
+                <p>
+                    <label for="tel">Phone Number<span aria-label="required">*</span></label>
+                    <input 
+                    type="tel" 
+                    name="tel" 
+                    id="tel"
+                    autocomplete="tel"
+                    required>
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="psw">Password<span aria-label="required">*</span></label>
+                    <input 
+                    type="password" 
+                    name="psw" 
+                    id="psw"
+                    minlength="6"
+                    maxlength="12"
+                    autocomplete="new-password"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+                    required>
+                </p>
+                <p>
+                    <label for="psw-repeat">Repeat Password<span aria-label="required">*</span></label>
+                    <input 
+                    type="password" 
+                    name="psw-repeat" 
+                    id="psw-repeat"
+                    minlength="6"
+                    maxlength="12"
+                    autocomplete="new-password"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+                    required>
+                </p>
+            </div>
+        </form>
+        <button type="submit" form="sing-up-form">Create Account</button>
+        <p class="login-msg">Already have an account? <a href="">Log In</a></p>
+    </main>
 </body>
 </html>
