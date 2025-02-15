@@ -22,31 +22,62 @@
                 <div class="form-row">
                     <div class="row">
                         <label for="name">Nombre</label>
-                        <input type="text" name="firstname" id="name">
+                        <input 
+                        type="text" 
+                        name="firstname" 
+                        id="name" 
+                        required>
                     </div>
                     <div class="row">
                         <label for="lastname">Apellido</label>
-                        <input type="text" name="lastname" id="lastname">
+                        <input 
+                        type="text" 
+                        name="lastname" 
+                        id="lastname" 
+                        required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="row">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        pattern="^\w+(-\w+)?(\.\w+)?@\w+(-\w+)?\.\w{2,3}(\.\w{2,3})?$" 
+                        required>
                     </div>
                     <div class="row">
                         <label for="tel">Telefono</label>
-                        <input type="tel" name="tel" id="tel">
+                        <input 
+                        type="tel" 
+                        name="tel" 
+                        id="tel" 
+                        required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="row">
                         <label for="psw">Contraseña</label>
-                        <input type="password" name="psw" id="psw">
+                        <input 
+                        type="password"
+                        name="psw" 
+                        id="psw" 
+                        minlength="6"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+                        title="Tiene que tener al menos 6 caracteres, una letra minuscula, una letra mayuscula, un numero y un caracter especial"
+                        required>
                     </div>
                     <div class="row">
                         <label for="psw-confirmation">Confirmar contraseña</label>
-                        <input type="password" name="psw-confirmation" id="psw-confirmation">
+                        <input 
+                        type="password" 
+                        name="psw-confirmation" 
+                        id="psw-confirmation"
+                        minlength="6"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+                        title="Tiene que tener al menos 6 caracteres, una letra minuscula, una letra mayuscula, un numero y un caracter especial"
+                        required>
                     </div>
                 </div>
             </form>
