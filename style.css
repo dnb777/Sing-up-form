@@ -90,17 +90,51 @@ body {
     gap: 3px;
 }
 
+.form-row label {
+    font-weight: bold;
+}
+
 /* INPUTS */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-    border: 1px solid rgb(201, 197, 197);
+    border: 1px solid rgb(247, 247, 247);
+    outline: none;
     border-radius: 3px;
     height: 35px;
     font-size: 1.6rem;
     padding: 5px;
 }
+
+
+input:invalid{
+    outline: 1px solid rgb(230, 25, 25);
+}
+input:valid:valid {
+    outline: 1px solid rgb(21, 165, 21);
+}
+
+@supports selector(:user-valid) {
+    input:invalid {
+        outline-color: initial;
+    }
+    input:valid {
+        outline-color: initial;
+    }
+    input:focus:invalid {
+        outline-color: blue;
+    }
+
+    input:user-valid {
+        outline-color: rgb(21, 165, 21);
+    }
+    input:user-invalid {
+        outline-color: rgb(230, 25, 25);
+    }
+}
+
+
 
 /* BUTTON */
 .button {
