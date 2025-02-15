@@ -80,7 +80,7 @@ body {
 .form-row {
     padding: 10px 0;
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
 .row {
