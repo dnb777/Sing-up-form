@@ -124,6 +124,7 @@ input:valid:valid {
     }
     input:focus:invalid {
         outline-color: blue;
+        box-shadow: 2px 1px 3px 1px gray;
     }
 
     input:user-valid {
