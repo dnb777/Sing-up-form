@@ -71,6 +71,8 @@ body {
 /* MAIN */
 .main{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-text {
@@ -153,6 +155,7 @@ body {
 
 /* BUTTON */
 button {
+    align-self: center;
     appearance: none;
     margin-top: 30px;
     font-size: 2.2rem;
@@ -175,6 +178,7 @@ button:active {
 }
 
 .login-msg {
+    align-self: center;
     font-size: 1.8rem;
-    margin-bottom: 50px;
+    margin: 10px 0 50px 0;
 }
