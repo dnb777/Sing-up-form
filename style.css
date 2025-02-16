@@ -3,6 +3,9 @@
     --white: rgb(255, 255, 255);
     --darkgray: rgb(88, 88, 88);
     --bodyFont: "Helvetica", "Arial", sans-serif;
+    --focus: blue;
+    --valid: rgb(21, 187, 21);
+    --invalid: rgb(235, 35, 35);
 }
 
 @font-face {
