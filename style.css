@@ -2,6 +2,7 @@
     --lightgray: rgb(241, 245, 243);
     --white: rgb(255, 255, 255);
     --darkgray: rgb(88, 88, 88);
+    --bodyFont: "Helvetica", "Arial", sans-serif;
 }
 
 @font-face {
@@ -26,7 +27,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: var(--bodyFont);
     background-color: var(--lightgray);
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 .logo h1{
-    font-family: "bat-knight", "Helvetica", "Arial", sans-serif;
+    font-family: "bat-knight", var(--bodyFont);
     font-size: 8rem;
     font-weight: bold;
     text-align: center;
@@ -55,7 +56,7 @@ body {
 }
 
 .logo p {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: var(--bodyFont);
     font-size: 1.6rem;
     font-weight: bold;
     font-style: italic;
