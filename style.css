@@ -83,10 +83,19 @@ body {
     background-color: var(--white);
     box-shadow:0px 5px 10px 1px rgba(228,229,231,255);
     padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-msg {
     font-size: 1.2rem;
     color: var(--darkgray);
+    margin-bottom: 20px;
+}
+
+.form-row p{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
