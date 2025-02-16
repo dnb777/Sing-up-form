@@ -6,6 +6,7 @@
     --focus: blue;
     --valid: rgb(21, 187, 21);
     --invalid: rgb(235, 35, 35);
+    --button: #75915d;
 }
 
 @font-face {
@@ -148,4 +149,23 @@ body {
     .sing-up-form input:user-invalid {
         outline: 1px solid var(--invalid);
     }
+}
+
+/* BUTTON */
+button {
+    appearance: none;
+    margin-top: 30px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    background-color: var(--button);
+    color: var(--lightgray);
+    border: 1px solid var(--darkgray);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-msg {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
 }
