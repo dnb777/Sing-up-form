@@ -139,12 +139,13 @@ body {
         outline:initial;
     }
 
-    .sign-form input:focus:invalid {
+    .sign-form input:focus {
         outline: 1px solid var(--focus);
         box-shadow: 2px 1px 3px 1px rgb(185, 185, 185);
     }
 
-    .sign-form input:user-valid {
+    .sign-form input:user-valid,
+    .sign-form input:focus:valid {
         outline: 1px solid var(--valid);
     }
 
