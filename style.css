@@ -1,5 +1,5 @@
 :root {
-    --lightgray: rgba(223,234,230,255);
+    --lightgray: rgb(241, 245, 243);
 }
 
 @font-face {
@@ -25,6 +25,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Helvetica", "Arial", sans-serif;
+    background-color: var(--lightgray);
 }
 
 /* HEADER */
