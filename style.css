@@ -1,5 +1,7 @@
 :root {
     --lightgray: rgb(241, 245, 243);
+    --white: rgb(255, 255, 255);
+    --darkgray: rgb(88, 88, 88);
 }
 
 @font-face {
@@ -64,13 +66,26 @@ body {
 /* MAIN */
 .main{
     margin-top: 50px;
-    padding: 0px 50px;
 }
 
 .main-text {
     font-size: 2.2rem;
     font-weight: bold;
+    padding: 0 50px;
 }
 .main-text p:last-child {
     margin-top: 20px;
+}
+
+/* FORM */
+.sing-up-form {
+    margin-top: 50px;
+    background-color: var(--white);
+    padding: 20px 50px;
+}
+
+.form-msg {
+    font-size: 1.2rem;
+    color: var(--darkgray);
+    margin-bottom: 20px;
 }
