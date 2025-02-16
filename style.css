@@ -166,6 +166,8 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
 }
 
 button:hover {
@@ -174,7 +176,6 @@ button:hover {
 button:active {
     opacity: 1;
     transform: scale(1.1);
-    transition: ease-in-out;
 }
 
 .login-msg {
