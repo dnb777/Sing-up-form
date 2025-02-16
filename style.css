@@ -212,9 +212,7 @@ button:active {
         flex-direction: row;
         gap: 30px;
     }
-
-
-
+    
     button,
     .login-msg{
         margin-left: 50px;
