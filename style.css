@@ -120,5 +120,14 @@ body {
 }
 
 .sing-up-form input:focus {
-    outline: 1px solid blue;
+    outline: 1px solid var(--focus);
+}
+
+
+.sing-up-form input:valid {
+    outline: 1px solid var(--valid);
+}
+
+.sing-up-form input:invalid {
+    outline: 1px solid var(--invalid);
 }
