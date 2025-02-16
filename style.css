@@ -124,19 +124,29 @@ body {
 
 .sign-form input:valid {
     outline: 1px solid var(--valid);
+    background-image: url(images/check.png);
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
 }
 
 .sign-form input:invalid {
     outline: 1px solid var(--invalid);
+    background-image: url(images/warning.png);
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
 }
 
 @supports selector(:user-valid) {
     .sign-form input:invalid {
         outline: initial;
+        background-image: none;
     }
 
     .sign-form input:valid {
         outline:initial;
+        background-image: none;
     }
 
     .sign-form input:focus {
@@ -147,10 +157,12 @@ body {
     .sign-form input:user-valid,
     .sign-form input:focus:valid {
         outline: 1px solid var(--valid);
+        background-image: url(images/check.png);
     }
 
     .sign-form input:user-invalid {
         outline: 1px solid var(--invalid);
+        background-image: url(images/warning.png);
     }
 }
 
