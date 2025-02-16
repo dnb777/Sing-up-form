@@ -119,3 +119,6 @@ body {
     outline: none;
 }
 
+.sing-up-form input:focus {
+    outline: 1px solid blue;
+}
