@@ -100,3 +100,19 @@ body {
     flex-direction: column;
     margin-bottom: 20px;
 }
+
+.sing-up-form label {
+    color: var(--darkgray);
+    font-weight: bold;
+}
+.sing-up-form input {
+    min-width: 250px;
+    height: 40px;
+    font-family: var(--bodyFont);
+    font-size: 1.6rem;
+    padding: 0px 5px;
+    border: 1px solid var(--darkgray);
+    border-radius: 3px;
+    outline: none;
+}
+
