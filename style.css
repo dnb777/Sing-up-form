@@ -119,15 +119,33 @@ body {
     outline: none;
 }
 
-.sing-up-form input:focus {
-    outline: 1px solid var(--focus);
-}
-
-
 .sing-up-form input:valid {
     outline: 1px solid var(--valid);
 }
 
 .sing-up-form input:invalid {
     outline: 1px solid var(--invalid);
+}
+
+@supports selector(:user-valid) {
+    .sing-up-form input:invalid {
+        outline: initial;
+    }
+
+    .sing-up-form input:valid {
+        outline:initial;
+    }
+
+    .sing-up-form input:focus:invalid {
+        outline: 1px solid var(--focus);
+        box-shadow: 2px 1px 3px 1px rgb(185, 185, 185);
+    }
+
+    .sing-up-form input:user-valid {
+        outline: 1px solid var(--valid);
+    }
+
+    .sing-up-form input:user-invalid {
+        outline: 1px solid var(--invalid);
+    }
 }
