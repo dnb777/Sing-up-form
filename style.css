@@ -165,6 +165,15 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: ease-in-out;
+}
+
 .login-msg {
     font-size: 1.8rem;
     margin-bottom: 50px;
